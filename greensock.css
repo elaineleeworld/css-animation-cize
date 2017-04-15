@@ -1,0 +1,74 @@
+#container{
+                    position: absolute;
+                    width: 100vw;
+                    height: 100vh;
+                    top: 0;
+                    left: 0;
+                    background-color: #000;
+                    overflow: hidden;
+                    font-family: 'Lato', sans-serif;
+                }
+                #wrapper{
+                    overflow: hidden;
+                    position:absolute;
+                    width: 1500px;
+                    height: 800px;
+                    z-index:10;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    -webkit-transform: translate(-50%, -50%);
+                    -moz-transform: translate(-50%, -50%);
+                    -o-transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                }
+
+                #wrapper div{
+                    position:absolute;
+                    background-position: center center;
+                    background-size: cover;
+                }
+
+                .p1{
+                    width: 1976px;
+                    height: 1183px;
+                    z-index:6;
+                    background-image: url('http://img1.beachbodyimages.com/beachbody/image/upload/bbweb/cize/backgroundvertigo.png');
+                    left: -89px;
+                    top: -11px;
+                    position: absolute;
+
+                }
+                .p2{
+                    width: 927px;
+                    height: 954px;
+                    z-index:8;
+                    background-image: url('http://img1.beachbodyimages.com/beachbody/image/upload/bbweb/cize/cize-hero-shaun-w960.png');
+                    left:-23px;
+                    top: 169px;
+                    position: absolute;
+
+                }
+                .p3{
+                    width: 1482px;
+                    height: 529px;
+                    z-index:7;
+                    /*background-image: url('http://img1.beachbodyimages.com/beachbody/image/upload/bbweb/cize/success-stories/cize-ss-logo.png');*/
+                    left: 218px;
+                    top: 136px;
+                    position: absolute;
+
+                }
+                .letra{
+
+                    font-weight: 900;
+                    color: blue;
+                    font-size: 280px;
+                    top: 30%;
+                    margin-top: -115px;
+                    width: 100%;
+                    text-align: center;
+                    z-index: 7;
+                    text-transform: uppercase;
+                    position: absolute;
+                }
